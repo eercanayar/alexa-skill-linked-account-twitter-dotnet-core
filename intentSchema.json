@@ -1,0 +1,26 @@
+{
+  "intents": [
+    {
+      "slots": [
+        {
+          "name": "Amount",
+          "type": "AMAZON.NUMBER"
+        },
+        {
+          "name": "Currency",
+          "type": "CURRENCY_LIST"
+        }
+      ],
+      "intent": "calculateExchange"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "tweetResult"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    }
+  ]
+}
